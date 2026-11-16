@@ -1,0 +1,133 @@
+/home/user/cfd-surrogate/training/train.py:94: RuntimeWarning: Mean of empty slice
+  mean, std = np.nan_to_num(np.nanmean(y[tr], 0)), np.nan_to_num(np.nanstd(y[tr], 0), nan=1.0)
+/usr/local/lib/python3.13/dist-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+epoch   1  loss 0.5090  val Cd MAE 0.0654 (R2 -9.273)  Cl MAE nan  49s
+epoch   2  loss 0.4514  val Cd MAE 0.0134 (R2 0.265)  Cl MAE nan  21s
+epoch   3  loss 0.3915  val Cd MAE 0.0121 (R2 0.395)  Cl MAE nan  11s
+epoch   4  loss 0.3673  val Cd MAE 0.0111 (R2 0.525)  Cl MAE nan  11s
+epoch   5  loss 0.3459  val Cd MAE 0.0108 (R2 0.548)  Cl MAE nan  11s
+epoch   6  loss 0.3233  val Cd MAE 0.0108 (R2 0.565)  Cl MAE nan  10s
+epoch   7  loss 0.3065  val Cd MAE 0.0112 (R2 0.518)  Cl MAE nan  10s
+epoch   8  loss 0.2856  val Cd MAE 0.0106 (R2 0.596)  Cl MAE nan  11s
+epoch   9  loss 0.2868  val Cd MAE 0.0118 (R2 0.497)  Cl MAE nan  11s
+epoch  10  loss 0.2738  val Cd MAE 0.0273 (R2 -1.320)  Cl MAE nan  11s
+epoch  11  loss 0.2510  val Cd MAE 0.0135 (R2 0.276)  Cl MAE nan  11s
+epoch  12  loss 0.2549  val Cd MAE 0.0191 (R2 -0.307)  Cl MAE nan  11s
+epoch  13  loss 0.2546  val Cd MAE 0.0130 (R2 0.332)  Cl MAE nan  11s
+epoch  14  loss 0.2534  val Cd MAE 0.0138 (R2 0.269)  Cl MAE nan  11s
+epoch  15  loss 0.2589  val Cd MAE 0.0113 (R2 0.587)  Cl MAE nan  11s
+epoch  16  loss 0.2524  val Cd MAE 0.0093 (R2 0.683)  Cl MAE nan  10s
+epoch  17  loss 0.2498  val Cd MAE 0.0105 (R2 0.568)  Cl MAE nan  11s
+epoch  18  loss 0.2327  val Cd MAE 0.0177 (R2 -0.146)  Cl MAE nan  11s
+epoch  19  loss 0.2316  val Cd MAE 0.0118 (R2 0.435)  Cl MAE nan  12s
+epoch  20  loss 0.2481  val Cd MAE 0.0133 (R2 0.429)  Cl MAE nan  11s
+epoch  21  loss 0.2307  val Cd MAE 0.0184 (R2 -0.091)  Cl MAE nan  11s
+epoch  22  loss 0.2163  val Cd MAE 0.0099 (R2 0.619)  Cl MAE nan  11s
+epoch  23  loss 0.2123  val Cd MAE 0.0190 (R2 -0.061)  Cl MAE nan  11s
+epoch  24  loss 0.2196  val Cd MAE 0.0098 (R2 0.639)  Cl MAE nan  12s
+epoch  25  loss 0.2187  val Cd MAE 0.0128 (R2 0.364)  Cl MAE nan  12s
+epoch  26  loss 0.2281  val Cd MAE 0.0085 (R2 0.747)  Cl MAE nan  12s
+epoch  27  loss 0.2263  val Cd MAE 0.0088 (R2 0.706)  Cl MAE nan  11s
+epoch  28  loss 0.2226  val Cd MAE 0.0096 (R2 0.670)  Cl MAE nan  11s
+epoch  29  loss 0.2111  val Cd MAE 0.0153 (R2 0.264)  Cl MAE nan  12s
+epoch  30  loss 0.2245  val Cd MAE 0.0084 (R2 0.747)  Cl MAE nan  12s
+epoch  31  loss 0.1981  val Cd MAE 0.0219 (R2 -0.459)  Cl MAE nan  12s
+epoch  32  loss 0.2047  val Cd MAE 0.0131 (R2 0.457)  Cl MAE nan  12s
+epoch  33  loss 0.2014  val Cd MAE 0.0084 (R2 0.745)  Cl MAE nan  12s
+epoch  34  loss 0.2105  val Cd MAE 0.0122 (R2 0.387)  Cl MAE nan  12s
+epoch  35  loss 0.1829  val Cd MAE 0.0109 (R2 0.501)  Cl MAE nan  11s
+epoch  36  loss 0.1884  val Cd MAE 0.0103 (R2 0.614)  Cl MAE nan  12s
+epoch  37  loss 0.1926  val Cd MAE 0.0079 (R2 0.748)  Cl MAE nan  11s
+epoch  38  loss 0.1923  val Cd MAE 0.0134 (R2 0.398)  Cl MAE nan  12s
+epoch  39  loss 0.2144  val Cd MAE 0.0075 (R2 0.796)  Cl MAE nan  12s
+epoch  40  loss 0.1892  val Cd MAE 0.0089 (R2 0.726)  Cl MAE nan  11s
+epoch  41  loss 0.1932  val Cd MAE 0.0093 (R2 0.718)  Cl MAE nan  12s
+epoch  42  loss 0.1745  val Cd MAE 0.0097 (R2 0.641)  Cl MAE nan  11s
+epoch  43  loss 0.1798  val Cd MAE 0.0277 (R2 -0.936)  Cl MAE nan  12s
+epoch  44  loss 0.1773  val Cd MAE 0.0124 (R2 0.432)  Cl MAE nan  11s
+epoch  45  loss 0.1829  val Cd MAE 0.0076 (R2 0.757)  Cl MAE nan  11s
+epoch  46  loss 0.1774  val Cd MAE 0.0085 (R2 0.700)  Cl MAE nan  12s
+epoch  47  loss 0.1765  val Cd MAE 0.0079 (R2 0.774)  Cl MAE nan  11s
+epoch  48  loss 0.1650  val Cd MAE 0.0069 (R2 0.836)  Cl MAE nan  12s
+epoch  49  loss 0.1768  val Cd MAE 0.0077 (R2 0.760)  Cl MAE nan  11s
+epoch  50  loss 0.1715  val Cd MAE 0.0109 (R2 0.520)  Cl MAE nan  11s
+epoch  51  loss 0.1684  val Cd MAE 0.0105 (R2 0.648)  Cl MAE nan  11s
+epoch  52  loss 0.1714  val Cd MAE 0.0083 (R2 0.785)  Cl MAE nan  11s
+epoch  53  loss 0.1716  val Cd MAE 0.0109 (R2 0.616)  Cl MAE nan  12s
+epoch  54  loss 0.1642  val Cd MAE 0.0091 (R2 0.725)  Cl MAE nan  11s
+epoch  55  loss 0.1660  val Cd MAE 0.0091 (R2 0.699)  Cl MAE nan  11s
+epoch  56  loss 0.1781  val Cd MAE 0.0069 (R2 0.821)  Cl MAE nan  11s
+epoch  57  loss 0.1807  val Cd MAE 0.0090 (R2 0.679)  Cl MAE nan  11s
+epoch  58  loss 0.1840  val Cd MAE 0.0149 (R2 0.365)  Cl MAE nan  11s
+epoch  59  loss 0.1647  val Cd MAE 0.0077 (R2 0.789)  Cl MAE nan  10s
+epoch  60  loss 0.1475  val Cd MAE 0.0075 (R2 0.794)  Cl MAE nan  11s
+epoch  61  loss 0.1682  val Cd MAE 0.0155 (R2 0.321)  Cl MAE nan  11s
+epoch  62  loss 0.1543  val Cd MAE 0.0100 (R2 0.566)  Cl MAE nan  11s
+epoch  63  loss 0.1557  val Cd MAE 0.0076 (R2 0.794)  Cl MAE nan  11s
+epoch  64  loss 0.1649  val Cd MAE 0.0098 (R2 0.618)  Cl MAE nan  11s
+epoch  65  loss 0.1572  val Cd MAE 0.0072 (R2 0.793)  Cl MAE nan  11s
+epoch  66  loss 0.1647  val Cd MAE 0.0097 (R2 0.615)  Cl MAE nan  11s
+epoch  67  loss 0.1566  val Cd MAE 0.0068 (R2 0.828)  Cl MAE nan  11s
+epoch  68  loss 0.1474  val Cd MAE 0.0107 (R2 0.554)  Cl MAE nan  12s
+epoch  69  loss 0.1435  val Cd MAE 0.0113 (R2 0.567)  Cl MAE nan  12s
+epoch  70  loss 0.1565  val Cd MAE 0.0081 (R2 0.753)  Cl MAE nan  12s
+epoch  71  loss 0.1474  val Cd MAE 0.0080 (R2 0.789)  Cl MAE nan  12s
+epoch  72  loss 0.1463  val Cd MAE 0.0081 (R2 0.767)  Cl MAE nan  11s
+epoch  73  loss 0.1529  val Cd MAE 0.0095 (R2 0.660)  Cl MAE nan  12s
+epoch  74  loss 0.1422  val Cd MAE 0.0085 (R2 0.719)  Cl MAE nan  12s
+epoch  75  loss 0.1436  val Cd MAE 0.0076 (R2 0.776)  Cl MAE nan  12s
+epoch  76  loss 0.1393  val Cd MAE 0.0065 (R2 0.846)  Cl MAE nan  11s
+epoch  77  loss 0.1371  val Cd MAE 0.0075 (R2 0.801)  Cl MAE nan  10s
+epoch  78  loss 0.1280  val Cd MAE 0.0072 (R2 0.819)  Cl MAE nan  11s
+epoch  79  loss 0.1502  val Cd MAE 0.0070 (R2 0.814)  Cl MAE nan  11s
+epoch  80  loss 0.1409  val Cd MAE 0.0078 (R2 0.756)  Cl MAE nan  11s
+epoch  81  loss 0.1228  val Cd MAE 0.0067 (R2 0.840)  Cl MAE nan  11s
+epoch  82  loss 0.1334  val Cd MAE 0.0084 (R2 0.729)  Cl MAE nan  11s
+epoch  83  loss 0.1453  val Cd MAE 0.0070 (R2 0.814)  Cl MAE nan  11s
+epoch  84  loss 0.1323  val Cd MAE 0.0076 (R2 0.783)  Cl MAE nan  10s
+epoch  85  loss 0.1400  val Cd MAE 0.0074 (R2 0.814)  Cl MAE nan  11s
+epoch  86  loss 0.1243  val Cd MAE 0.0066 (R2 0.838)  Cl MAE nan  11s
+epoch  87  loss 0.1248  val Cd MAE 0.0078 (R2 0.778)  Cl MAE nan  11s
+epoch  88  loss 0.1273  val Cd MAE 0.0071 (R2 0.821)  Cl MAE nan  11s
+epoch  89  loss 0.1177  val Cd MAE 0.0065 (R2 0.845)  Cl MAE nan  10s
+epoch  90  loss 0.1213  val Cd MAE 0.0069 (R2 0.826)  Cl MAE nan  10s
+epoch  91  loss 0.1187  val Cd MAE 0.0067 (R2 0.844)  Cl MAE nan  11s
+epoch  92  loss 0.1156  val Cd MAE 0.0065 (R2 0.848)  Cl MAE nan  11s
+epoch  93  loss 0.1209  val Cd MAE 0.0063 (R2 0.854)  Cl MAE nan  11s
+epoch  94  loss 0.1133  val Cd MAE 0.0062 (R2 0.859)  Cl MAE nan  11s
+epoch  95  loss 0.1272  val Cd MAE 0.0063 (R2 0.850)  Cl MAE nan  12s
+epoch  96  loss 0.1086  val Cd MAE 0.0062 (R2 0.855)  Cl MAE nan  12s
+epoch  97  loss 0.1095  val Cd MAE 0.0064 (R2 0.851)  Cl MAE nan  11s
+epoch  98  loss 0.1032  val Cd MAE 0.0060 (R2 0.862)  Cl MAE nan  11s
+epoch  99  loss 0.1230  val Cd MAE 0.0060 (R2 0.864)  Cl MAE nan  11s
+epoch 100  loss 0.1117  val Cd MAE 0.0060 (R2 0.863)  Cl MAE nan  11s
+epoch 101  loss 0.1120  val Cd MAE 0.0060 (R2 0.866)  Cl MAE nan  11s
+epoch 102  loss 0.1053  val Cd MAE 0.0061 (R2 0.864)  Cl MAE nan  11s
+epoch 103  loss 0.1096  val Cd MAE 0.0062 (R2 0.859)  Cl MAE nan  11s
+epoch 104  loss 0.1076  val Cd MAE 0.0061 (R2 0.865)  Cl MAE nan  11s
+epoch 105  loss 0.1162  val Cd MAE 0.0062 (R2 0.858)  Cl MAE nan  11s
+epoch 106  loss 0.1110  val Cd MAE 0.0060 (R2 0.868)  Cl MAE nan  11s
+epoch 107  loss 0.1115  val Cd MAE 0.0059 (R2 0.869)  Cl MAE nan  11s
+epoch 108  loss 0.1041  val Cd MAE 0.0060 (R2 0.870)  Cl MAE nan  11s
+epoch 109  loss 0.1067  val Cd MAE 0.0062 (R2 0.857)  Cl MAE nan  10s
+epoch 110  loss 0.1142  val Cd MAE 0.0062 (R2 0.858)  Cl MAE nan  11s
+epoch 111  loss 0.1128  val Cd MAE 0.0062 (R2 0.858)  Cl MAE nan  12s
+epoch 112  loss 0.1109  val Cd MAE 0.0060 (R2 0.868)  Cl MAE nan  11s
+epoch 113  loss 0.0935  val Cd MAE 0.0061 (R2 0.862)  Cl MAE nan  11s
+epoch 114  loss 0.1053  val Cd MAE 0.0061 (R2 0.862)  Cl MAE nan  11s
+epoch 115  loss 0.1026  val Cd MAE 0.0061 (R2 0.862)  Cl MAE nan  11s
+epoch 116  loss 0.1044  val Cd MAE 0.0062 (R2 0.862)  Cl MAE nan  11s
+epoch 117  loss 0.1107  val Cd MAE 0.0061 (R2 0.864)  Cl MAE nan  11s
+epoch 118  loss 0.1044  val Cd MAE 0.0062 (R2 0.860)  Cl MAE nan  11s
+epoch 119  loss 0.1009  val Cd MAE 0.0062 (R2 0.862)  Cl MAE nan  11s
+epoch 120  loss 0.1039  val Cd MAE 0.0061 (R2 0.865)  Cl MAE nan  11s
+TEST {
+  "cd": {
+    "mae": 0.006099068094044924,
+    "rmse": 0.008111831732094288,
+    "r2": 0.8392206430435181,
+    "mape_pct": 2.3843913078308105
+  }
+}
+saved weights/pointnet_cd_cl.pt

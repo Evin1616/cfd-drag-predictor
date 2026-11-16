@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/
+reports_train.log
+.gradio/
+flagged/
+.venv/
+data/drivaernet.npz
